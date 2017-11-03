@@ -1,3 +1,75 @@
 * {
   box-sizing: border-box;
+
+}
+
+body {
+  background-color: #E2EFDE;
+}
+
+.menu-box {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  opacity: .7;
+  background-color: #E2EFDE;
+
+}
+
+.logo-box {
+  margin-top: .15%;
+  position: absolute;
+  float: left;
+  height: 50px;
+  width: 25%;
+  background: url("https://orig00.deviantart.net/a517/f/2012/298/b/6/camara_png_by_meelcomecaramelo-d5iywu8.png");
+}
+
+.box-with-text {
+
+  position: absolute;
+  margin-top: .35%;
+  margin-left: 12%;
+  font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
+  background-image: url("https://media.giphy.com/media/l1J9LFYy75mRXbvZ6/giphy.gif");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-right: 2%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin: 0 0 0 5%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25em;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+a:link,
+a:visited {
+color: #5B8C5A;
+}
+
+a:hover {
+
+
+  font-weight: 900;
+  letter-spacing: 1px;
 }
