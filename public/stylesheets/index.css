@@ -27,7 +27,6 @@ body {
 }
 
 .box-with-text {
-
   position: absolute;
   margin-top: .35%;
   margin-left: 12%;
@@ -68,19 +67,53 @@ color: #5B8C5A;
 }
 
 a:hover {
-
-
   font-weight: 900;
   letter-spacing: 1px;
 }
+/* CSS SLIDER! */
 
+.slideshow {
+  display: block;
+  width: 1000px;
+  height: 525px;
+  margin: 0 auto;
+  overflow: hidden;
 
+}
 
+.slideshow-container {
+  margin-top: 10%;
+  width: 4000px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 525px;
+}
 
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
 
+img {
+  width: 1000px;
+  height: auto;
 
+}
 
+.slide {
+  animation: slide 24s ease infinite;
+}
 
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  12.5% { transform: translateX(0%); }
+  25% { transform: translateX(-25%); }
+  37.5% { transform: translateX(-25%); }
+  50% { transform: translateX(-50%); }
+  62.5% { transform: translateX(-50%); }
+  75% { transform: translateX(-75%); }
+  87.5% { transform: translateX(-75%); }
+  99% { transform: translateX(-75%); }
+  100% { transform: translateX(0); } }
 
 
 
@@ -206,7 +239,15 @@ a:hover {
 
 
 
-=======
+
+
+
+
+
+
+
+
+
 /* Battlebots css*/
 body {
   margin: 100px;
