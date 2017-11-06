@@ -73,7 +73,7 @@ a:hover {
 /* CSS SLIDER! */
 
 .slideshow {
-  position: relative;
+  display: block;
   width: 1000px;
   height: 525px;
   margin: 0 auto;
