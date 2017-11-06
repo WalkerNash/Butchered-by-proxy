@@ -10,7 +10,6 @@ var c3 =  document.querySelector('.c3');
 var meetTeam =  document.querySelector('.meetTeam');
 var aboutMega = document.querySelector('.aboutMega');
 
-var count = 0;
 
 function expandCard1() {
     c1.classList.toggle('hidden');
