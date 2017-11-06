@@ -82,7 +82,7 @@ a:hover {
 }
 
 .slideshow-container {
-  margin-top: 10%;
+  margin-top: 20%;
   width: 4000px;
   font-size: 0;
   transition: 1s ease;
@@ -94,6 +94,7 @@ a:hover {
 }
 
 img {
+  display: inline-block;
   width: 1000px;
   height: auto;
 
