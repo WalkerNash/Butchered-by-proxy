@@ -37,7 +37,24 @@
 }
 
 #cardText {
+  text-align: center;
   color: #A1E8AF;
+}
+
+.aboutMega{
+  background: linear-gradient(#7C9EB2, #3D5A6C);
+  /*color: #A1E8AF;*/
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-bottom: 40px;
+  width: 50%;
+  text-align: center;
+}
+
+.aboutText{
+  text-decoration-color: #A1E8AF;
+  width: 90%;
+
 }
 
 .hidden {

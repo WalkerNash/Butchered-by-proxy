@@ -8,6 +8,7 @@ var c3 =  document.querySelector('.c3');
 
 var meetTeam =  document.querySelector('.meetTeam');
 var aboutMega = document.querySelector('.aboutMega');
+var megaEvent = document.querySelector('.megaEvent');
 
 
 function expandCard1() {
@@ -22,5 +23,5 @@ function expandCard2() {
 
 function expandCard3() {
     c3.classList.toggle('hidden');
-
+    megaEvent.classList.toggle('hidden');
 }
