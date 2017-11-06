@@ -235,20 +235,11 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Battlebots css*/
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #3D5A6C;  text-indent: 50px; margin-left: 20px;
+}
 body {
   margin: 100px;
 }
@@ -281,7 +272,7 @@ grid-template-areas: "img";
         "footer  footer  footer";
         background-color: #E2EFDE;
         color: #444;
-
+       margin-left: 20px;
     }
 
 
@@ -325,30 +316,40 @@ grid-template-areas: "img";
   right: 0;
 }
 
+#content4 h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
 #content1 h2 {
 font-family:Arial, Helvetica, sans-serif;
 font-size: 30px;
+text-align: center;
 }
 
 #content2 h3 {
 font-family:Arial, Helvetica, sans-serif;
-font-size: 30px;
+font-size: 30px; text-align: center;
 }
 
 #content3 h4 {
 font-family:Arial, Helvetica, sans-serif;
-font-size: 30px;
+font-size: 30px; text-align: center;
 }
-
 
 .sidebarImg {
-    float:right;
-    padding:10px;
-    height: 250px;
-    width: 300%;
- margin: 0 auto;
+float: right;
+    padding:35px;
+    height: 275px;
+    width: 400%;
+ margin: -30px;
+ object-fit: fill;
 }
 
+
+.sMedia {text-align: center;}
+=======
 
 
 
