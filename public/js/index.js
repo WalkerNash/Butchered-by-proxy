@@ -23,5 +23,5 @@ function expandCard2() {
 
 function expandCard3() {
     c3.classList.toggle('hidden');
-    //aboutMega.classList.toggle('hidden');
+    
 }

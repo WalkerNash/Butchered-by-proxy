@@ -24,12 +24,12 @@
     margin-bottom: 40px;
     width: 400px;
     text-align: center;
-  img {
+  /*img {
     float: left;
   }
   p {
     float: left;
-  }
+  }*/
 }
 
 .hidden {
