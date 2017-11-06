@@ -13,7 +13,7 @@ body {
   width: 100%;
   overflow: hidden;
   opacity: .7;
-  background-color: #E2EFDE;
+  background-color: #7C9EB2;
 
 }
 
@@ -93,10 +93,9 @@ a:hover {
   animation-play-state: paused;
 }
 
-img {
+#si {
   width: 1000px;
   height: auto;
-
 }
 
 .slide {
@@ -348,30 +347,40 @@ float: right;
 }
 
 
-.sMedia {text-align: center;}
-=======
+.sMedia {
+  text-align: center;
+}
 
 
 
 /*=================Dallas CSS Begin====================*/
-.container {
+.drl-gridc {
   height: 100vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: 50px auto 50px;
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .top-spacer {
-  grid-column: 1 / 4
 }
 
-.spacer {
+.spacer-1 {
   background-color: #E2EFDE;
+  grid-row: 1 / 7;
+}
+
+.spacer-2 {
+  background-color: #E2EFDE;
+  grid-row: 1 / 7;
+  grid-column: 3/4;
+  /*grid-row:
+  grid-column:*/
 }
 
 .topspace {
-
+  width: auto;
+  height: 200px;
 }
 
 .drl-content {
