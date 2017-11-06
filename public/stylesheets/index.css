@@ -193,10 +193,7 @@ a:hover {
 
 
 
-
-
-
-
+=======
 /* Battlebots css*/
 p {
     font-family: "Times New Roman", Times, serif;
@@ -309,4 +306,45 @@ float: right;
  object-fit: fill;
 }
 
+
 .sMedia {text-align: center;}
+=======
+
+
+
+/*=================Dallas CSS Begin====================*/
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 50px auto 50px;
+}
+
+.top-spacer {
+  grid-column: 1 / 4
+}
+
+.spacer {
+  background-color: #E2EFDE;
+}
+
+.topspace {
+
+}
+
+.drl-content {
+
+}
+
+.player-card {
+
+}
+
+.portrait-window {
+
+}
+
+.player-content {
+
+}
