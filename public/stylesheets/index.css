@@ -84,10 +84,12 @@ a:hover {
 100% { left: -400%; }
 }
 
-#slider {
+
+#img-container {
   width: 100%; overflow: hidden;
+  margin-top: 20%;
 }
-figure.slider {
+#slider {
   position: relative;
   width: 500%;
   font-size: 0;
@@ -100,11 +102,11 @@ figure.slider figure {
   position: inherit;
 }
 figure.slider img {
-  width: 100%; height: auto; }
+  width: 100%;
+  height: auto;
+ }
 
 figure.slider figure figcaption {
-  position: absolute; bottom: 0;
-
-
-  
+  position: absolute;
+  bottom: 0;
 }
