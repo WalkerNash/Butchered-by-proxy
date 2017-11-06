@@ -200,7 +200,7 @@ a:hover {
 /* Battlebots css*/
 p {
     font-family: "Times New Roman", Times, serif;
-    color: #3D5A6C;
+    color: #3D5A6C;  text-indent: 50px; margin-left: 20px;
 }
 body {
   margin: 100px;
@@ -234,7 +234,7 @@ grid-template-areas: "img";
         "footer  footer  footer";
         background-color: #E2EFDE;
         color: #444;
-
+       margin-left: 20px;
     }
 
 
@@ -309,4 +309,4 @@ float: right;
  object-fit: fill;
 }
 
-#bFooter {text-align:center;}
+.sMedia {text-align: center;} 
