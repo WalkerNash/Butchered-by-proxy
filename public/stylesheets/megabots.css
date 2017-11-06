@@ -1,11 +1,13 @@
 .card {
+    background: linear-gradient(#7C9EB2, #3D5A6C);
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 25%;
     margin-bottom: 40px;
-    width: 400px;
+    width: 50%;
     text-align: center;
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    color: #A1E8AF;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -19,17 +21,40 @@
 }
 
 .meetTeam {
-    margin-top: 30px;
+    background: linear-gradient(#7C9EB2, #3D5A6C);
+    color: #A1E8AF;
     display: inline-block;
+    margin-top: 50px;
+    margin-left: 25%;
     margin-bottom: 40px;
-    width: 400px;
+    width: 50%;
     text-align: center;
-  img {
-    float: left;
-  }
-  p {
-    float: left;
-  }
+}
+
+#cardImg {
+  color: #A1E8AF;
+  float: left;
+}
+
+#cardText {
+  text-align: center;
+  color: #A1E8AF;
+}
+
+.aboutMega{
+  background: linear-gradient(#7C9EB2, #3D5A6C);
+  /*color: #A1E8AF;*/
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-bottom: 40px;
+  width: 50%;
+  text-align: center;
+}
+
+.aboutText{
+  text-decoration-color: #A1E8AF;
+  width: 90%;
+
 }
 
 .hidden {
