@@ -59,8 +59,6 @@ li a {
   padding-top: 14px;
   padding-right: 20px;
 
-
-
 }
 
 a:link,
@@ -142,12 +140,33 @@ a:hover {
     display: block;
     position: static;
     border: 2px solid #3D5A6C;
+    background-color: #A1E8AF;
     margin-top: 40%;
   }
 
+#HC {
+  color: #A1E8AF;
+  text-align: center;
+  background-color: #3D5A6C;
+}
 
+.types {
+  height: 500px;
+}
+.about-photo {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  background-image: url('http://www.dshinsel.com/wp-content/uploads/2013/05/Team-Crash-Win-trim2.jpg');
+  background-repeat: no-repeat;
+}
 
-
+#HC3 {
+  position: static;
+  
+  float: right;
+  width: 50%;
+}
 
 
 
