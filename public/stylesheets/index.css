@@ -197,6 +197,16 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+=======
 /* Battlebots css*/
 body {
   margin: 100px;
@@ -297,3 +307,33 @@ font-size: 30px;
     width: 300%;
  margin: 0 auto;
 }
+
+
+
+
+/*=================Dallas CSS Begin====================*/
+.container {
+  display: grid;
+}
+
+.spacer {
+  background-color: #E2EFDE;
+}
+
+.topspace {
+
+}
+
+.content {
+
+}
+
+.player-card {
+
+}
+
+.portrait-window {
+
+}
+
+.player-content {
