@@ -1,13 +1,37 @@
+
+
+body {
+  /*background: url('/images/sr.jpg');
+  background-color: #E2EFDE;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 25%;*/
+  font-family: cursive;
+}
+
+.plane {
+  float: right;
+  transform: 'rotate(-180deg)';
+}
+
+#robo {
+  border-radius: 8px;
+}
+
 .card {
+    border: 2px solid linear-gradient(#7C9EB2, #3D5A6C);
+    border-radius: 8px;
     background: linear-gradient(#7C9EB2, #3D5A6C);
-    margin-top: 50px;
-    margin-left: 25%;
-    margin-bottom: 40px;
-    width: 50%;
+    display: block;
+    top: 50px;
+    left: 25%;
+    margin-bottom:80px;
+    width: 25%;
     text-align: center;
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px #888888;
     transition: 0.3s;
     color: #A1E8AF;
+    font-family: cursive;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -21,14 +45,20 @@
 }
 
 .meetTeam {
+  font-family: myFirstFont;
+    border: 2px solid linear-gradient(#7C9EB2, #3D5A6C);
+    border-radius: 8px;
     background: linear-gradient(#7C9EB2, #3D5A6C);
     color: #A1E8AF;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 25%;
-    margin-bottom: 40px;
-    width: 50%;
+    width: 100%;
     text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+.member {
+  display: inline-block;
 }
 
 #cardImg {
@@ -37,24 +67,39 @@
 }
 
 #cardText {
-  text-align: center;
   color: #A1E8AF;
+  float: left;
+  font-family: cursive;
 }
 
 .aboutMega{
   background: linear-gradient(#7C9EB2, #3D5A6C);
-  /*color: #A1E8AF;*/
-  margin-top: 50px;
-  margin-left: 25%;
-  margin-bottom: 40px;
-  width: 50%;
+  margin-bottom: 30px;
+  width: 100%;
   text-align: center;
+  font-family: cursive;
 }
 
-.aboutText{
-  text-decoration-color: #A1E8AF;
-  width: 90%;
+#aboutText{
+  padding: 30px;
+  color: #A1E8AF;
+  font-family: cursive;
+  font-size: 18px;
+}
 
+.megaEvent{
+  background: linear-gradient(#7C9EB2, #3D5A6C);
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+}
+
+#eventText {
+  padding: 30px;
+  color: #A1E8AF;
+  font-family: cursive;
+  font-size: 18px;
 }
 
 .hidden {
