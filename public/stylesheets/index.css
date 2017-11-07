@@ -8,7 +8,7 @@ body {
 }
 
 .menu-box {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   overflow: hidden;
@@ -35,30 +35,30 @@ body {
   background-image: url("https://media.giphy.com/media/l1J9LFYy75mRXbvZ6/giphy.gif");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 
 ul {
   list-style-type: none;
   margin-top: 0;
-  margin-right: 2%;
+  text-align: center;
   overflow: hidden;
   background-color: transparent;
 }
 
-li {
-  float: right;
+ul {
+  word-spacing: 5px;
+  margin-right: 15%;
 }
 
 li a {
+  float: right;
   text-decoration: none;
-  letter-spacing: 2px;
-  margin: 0 0 0 5%;
   font-family: 'Roboto Slab', serif;
   font-size: 1.25em;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+  display: inline-block;
+  padding-top: 14px;
+  padding-right: 20px;
+
 }
 
 a:link,
@@ -73,30 +73,31 @@ a:hover {
 /* CSS SLIDER! */
 
 .slideshow {
+  float: left;
   display: block;
-  width: 1000px;
-  height: 525px;
+  width: 800px;
+  height: 450px;
   margin: 0 auto;
   overflow: hidden;
+  border: 6px solid #3D5A6C;
 
 }
 
 .slideshow-container {
-  margin-top: 10%;
-  width: 4000px;
+  width: 3200px;
   font-size: 0;
   transition: 1s ease;
-  height: 525px;
+  height: 425px;
 }
 
 .slideshow-container:hover {
   animation-play-state: paused;
 }
 
-img {
-  width: 1000px;
-  height: auto;
 
+#SI {
+  width: 800px;
+  height: auto;
 }
 
 .slide {
@@ -115,10 +116,57 @@ img {
   99% { transform: translateX(-75%); }
   100% { transform: translateX(0); } }
 
+.pgjmps {
+  background: #7C9EB2;
+  border: 6px solid #3D5A6C;
+  height: 450px;
+  width: 100%;
+}
 
+  #jmps {
+    display: block;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    line-height: 70px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    color: #A1E8AF;
+  }
 
+  .contact,
+  .types,
+  .news,
+  .about {
+    display: block;
+    position: static;
+    border: 2px solid #3D5A6C;
+    background-color: #A1E8AF;
+    margin-top: 40%;
+  }
 
+#HC {
+  color: #A1E8AF;
+  text-align: center;
+  background-color: #3D5A6C;
+}
 
+.types {
+  height: 500px;
+}
+.about-photo {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  background-image: url('http://www.dshinsel.com/wp-content/uploads/2013/05/Team-Crash-Win-trim2.jpg');
+  background-repeat: no-repeat;
+}
+
+#HC3 {
+  position: static;
+
+  float: right;
+  width: 50%;
+}
 
 
 
@@ -348,37 +396,90 @@ float: right;
 }
 
 
-.sMedia { text-align: center;}
+
+.sMedia {
+  text-align: center;
+}
+
 
 
 
 /*=================Dallas CSS Begin====================*/
-.container {
+.drl-gridc {
   height: 100vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: 50px auto 50px;
+  grid-template-rows: repeat(8, 1fr);
+  position: relative;
 }
 
-.top-spacer {
-  grid-column: 1 / 4
-}
-
-.spacer {
+.spacer-1 {
   background-color: #E2EFDE;
+  grid-row: 1 / 7;
+  grid-column: 1/2;
+}
+
+.spacer-2 {
+  background-color: #E2EFDE;
+  grid-row: 1 / 7;
+  grid-column: 3/4;
+  /*grid-row:
+  grid-column:*/
 }
 
 .topspace {
-
+  width: auto;
+  height: 400px;
+  text-align: center;
+  grid-row: 1/2;
 }
 
 .drl-content {
-
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+grid-row: 2/3;
 }
 
 .player-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 
+.player-card-left {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.player-spacer-top {
+  grid-column: 1/6;
+}
+
+.player-spacer-vert {
+  grid-row: 2/6;
+  grid-column: 1/2;
+}
+
+.player-spacer-vert-2 {
+  grid-row: 2/6;
+  grid-column: 3/4;
+}
+.player-spacer-vert-3 {
+  grid-row: 2/6;
+  grid-column: 5/6;
+}
+
+.player-spacer-bot {
+  grid-column: 1/6;
+  grid-row-start: 6;
+}
+
+.portrait-window {
+  grid-column: 2/3;
+  grid-row: 2/6;
 }
 
 .portrait-window {
