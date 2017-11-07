@@ -319,23 +319,23 @@ grid-template-areas: "img";
 #content4 h1 {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 30px;
-  text-align: center;
+  text-align: center; border: 3px solid black;
 }
 
 #content1 h2 {
 font-family:Arial, Helvetica, sans-serif;
 font-size: 30px;
-text-align: center;
+text-align: center; border: 3px solid black;
 }
 
 #content2 h3 {
 font-family:Arial, Helvetica, sans-serif;
-font-size: 30px; text-align: center;
+font-size: 30px; text-align: center; border: 3px solid black;
 }
 
 #content3 h4 {
 font-family:Arial, Helvetica, sans-serif;
-font-size: 30px; text-align: center;
+font-size: 30px; text-align: center; border: 3px solid black;
 }
 
 .sidebarImg {
