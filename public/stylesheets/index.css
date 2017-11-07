@@ -341,14 +341,14 @@ font-size: 30px; text-align: center;
 .sidebarImg {
 float: right;
     padding:35px;
-    height: 275px;
-    width: 400%;
- margin: -30px;
+    height: 400px;
+    width: 530%;
+ margin: -105px;
  object-fit: fill;
 }
 
 
-.sMedia {text-align: center;}
+.sMedia { text-align: center;}
 
 
 
