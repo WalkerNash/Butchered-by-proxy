@@ -1,4 +1,10 @@
+<div class="plane">
+  <img id="robo" src="/images/pp1.png" alt="Avatar">
+</div>
+
+<div class="content">
 <div class="card c1" onmouseover="expandCard1()">
+  <img id="robo" src="/images/rt.png" alt="Avatar" style="width:100%">
   <div class="cardContainer">
     <h4><b>Meet Team</b></h4>
   </div>
@@ -6,41 +12,48 @@
 
 <div class="meetTeam hidden" onmouseleave="expandCard1()">
     <h4><b>Meet the Team</b></h4>
-    <ul>
-        <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:11%">
+         <div class="member">
+        <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:50%">
         <p id="cardText"> John Doe <br />
             Age: 26 years old <br />
             Computer Programmer<br />
         </p>
-        <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:11%">
+        </div>
+        <div class="member">
+        <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:50%">
         <p id="cardText"> Jane Doe <br />
             Age: 28 years old <br />
             Mechanical Engineer<br />
         </p>
-      <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:11%">
-        <p id="cardText"> Elmo Doe <br />
-            Age: 24 years old <br />
+        </div>
+        <div class="member">
+      <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:50%">
+        <p id="cardText"> Elmo Doe<br />
+            Age: 24 years old<br />
             Electrical Engineer<br />
         </p>
-      <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:11%">
-        <p id="cardText"> Micheal Doe <br />
-            Age: 28 years old <br />
+        </div>
+          <div class="member">
+      <img id="cardImg" src="http://placehold.it/112x112/DC143C/FFFFFF" alt="Avatar" style="width:50%">
+        <p id="cardText"> Micheal Doe<br />
+            Age: 28 years old<br />
             Mechanical Engineer<br />
         </p>
-    </ul>
+        </div>
   </div>
 
 
    <div class="card c2" onmouseover="expandCard2()">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <img id="robo" src="/images/tl.png" alt="Avatar" style="width:100%">
   <div class="cardContainer">
     <h4><b>About Megabots</b></h4>
   </div>
   </div>
 
   <div class="aboutMega hidden" onmouseleave="expandCard2()">
-    <div class="aboutText">
-    <p>Giant. Fighting. Robots. <br />
+    <div id="aboutText">
+    <h4><b>About Megabots</b></h4>
+    <p id="aboutText">Giant. Fighting. Robots. <br />
 
       MegaBots, uses cutting-edge robotics technology to create the giant piloted fighting robots of science fiction, videogames and movies. These robots fight in epic-scale arena combat the likes of which the world has never seen before.<br />
 
@@ -52,12 +65,14 @@
 
 
   <div class="card c3" onmouseover="expandCard3()">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <img id="robo" src="/images/rb.jpg" alt="Avatar" style="width:100%">
   <div class="cardContainer">
     <h4><b>Upcoming Events</b></h4>
   </div>
 </div>
 
 <div class="megaEvent hidden" onmouseleave="expandCard3()">
- <p>While there are no upcoming events. We plan on working on our robot</p>
+  <h4 id="eventText"><b>Upcoming Events</b></h4>
+ <p id="eventText">While there are no upcoming events. We plan on working on our robot</p>
+</div>
 </div>
